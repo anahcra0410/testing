@@ -1,0 +1,24 @@
+{
+  "name": "qa-automation-assignment",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end testing project for the Practice Test Automation login page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:update": "npx playwright test --update-snapshots"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  }
+}
+
